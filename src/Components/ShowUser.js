@@ -11,7 +11,7 @@ function ShowUser() {
   console.log(userData);
 
   return (
-    <div className='w-screen h-full bg-black'>
+    <div className='w-full h-full bg-black'>
       <Navbar />
       <div class='w-screen h-2/4 flex justify-center items-center -ml-60'>
         <img

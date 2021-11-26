@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 
 import Star from '../assets/star.svg';
 import Fork from '../assets/code-branch-solid.svg';
-import language from '../assets/language.svg';
+import Language from '../assets/language.svg';
+import Share from '../assets/share.svg';
 
 function ReposUser(props) {
   const [repositories, setRepositories] = useState([]);
@@ -22,24 +23,29 @@ function ReposUser(props) {
   console.log(repositories);
 
   return (
-    <div class='grid grid-cols-3 gap-4 mt-20'>
+    <div class='grid grid-cols-3 gap-4 mt-20 ml-40'>
       {repositories.map((repo) => (
         <div class='bg-blackVeryDark w-96 flex'>
-          <div class='mt-6 mb-2' key={repo.id}>
-            <p class='text-gray text-center'>{repo.name}</p>
-            <p class='text-gray'>{repo.description || 'No description completed'}</p>
-            <div class='h-20 flex content-end'>
-              <div class='flex'>
-                <img src={Star} alt='star icon' class='w-4' />
-                <p class='text-gray'>{repo.stars || '0'}</p>
+          <div class='ml-5 mr-5' key={repo.id}>
+            <p class='text-gray font-display font-bold mt-4 text-xl'>{repo.name}</p>
+            <p class='text-gray'>
+              {repo.description || 'No description completed'}
+            </p>
+            <div class='h-20 flex items-end'>
+              <div class='flex mr-4'>
+                <img src={Star} alt='star icon' class='w-4 mr-2' />
+                <p class='text-gray'>{repo.stargazers_count || '0'}</p>
               </div>
-              <div class='flex'>
-                <img src={Fork} alt='fork icon' class='w-4' />
-                <p class='text-gray'>{repo.forks}</p>
+              <div class='flex mr-4'>
+                <img src={Fork} alt='fork icon' class='w-4 mr-2' />
+                <p class='text-gray'>{repo.forks_count}</p>
               </div>
-              <div class='flex'>
-                <img src={language} alt='language icon' />
-                <p class='text-gray'>{repo.language}</p>
+              <div class='flex mr-4'>
+                <img src={Language} alt='language icon' class='mr-2' />
+                <p class='text-gray'>{repo.language || 'Language'}</p>
+              </div>
+              <div class='flex mr-4'>
+                <a href={repo.html_url} target='_blank'><img src={Share} alt="share icon" class='w-4'/></a>
               </div>
             </div>
           </div>
