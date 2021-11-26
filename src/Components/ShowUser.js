@@ -8,7 +8,6 @@ import ShowDataUser from './ShowDataUser';
 function ShowUser() {
   const location = useLocation();
   const { userData } = location.state;
-  console.log(userData);
 
   return (
     <div className='w-full h-full bg-black'>

@@ -21,7 +21,7 @@ function ReposUser(props) {
   }, [setRepositories, reposUser]);
 
   return (
-    <div class='grid grid-cols-3 gap-4 mt-20 ml-40'>
+    <div class='grid grid-cols-3 gap-4 mt-20 ml-20'>
       {repositories.map((repo) => (
         <div class='bg-blackVeryDark w-96 flex flex-col'>
           <div class='flex-1 ml-4'>

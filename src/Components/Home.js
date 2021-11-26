@@ -16,7 +16,12 @@ function Home() {
   const searchHandle = async (event) => {
     event.preventDefault();
     const response = await fetch(`https://api.github.com/users/${value}`);
+    if (response.status === 404) {
+      navigate('/notfound');
+    }
+
     const data = await response.json();
+
     navigate('/user', {
       state: {
         userData: data,
