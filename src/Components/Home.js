@@ -15,13 +15,10 @@ function Home() {
 
   const searchHandle = async (event) => {
     event.preventDefault();
+
     const response = await fetch(`https://api.github.com/users/${value}`);
-    if (response.status === 404) {
-      navigate('/notfound');
-    }
-
     const data = await response.json();
-
+    
     navigate('/user', {
       state: {
         userData: data,
@@ -35,13 +32,13 @@ function Home() {
         <img src={Logo} alt='logo github' class='m-6 box-border' />
         <label class=''>
           <form onSubmit={(event) => searchHandle(event)}>
-          <input
-            type='text'
-            class='border-b-4 border-t-0 border-r-0 border-l-0 border-purple focus:ring-0 bg-black w-60 text-white font-display'
-            placeholder='Enter user name'
-            value={value.trim()}
-            onChange={handleChange}
-          />
+            <input
+              type='text'
+              class='border-b-4 border-t-0 border-r-0 border-l-0 border-purple focus:ring-0 bg-black w-60 text-white font-display'
+              placeholder='Enter user name'
+              value={value.trim()}
+              onChange={handleChange}
+            />
             <button
               type='submit'
               class='w-full mt-12 flex justify-center py-2 px-4 border border-transparent font-medium rounded-sm text-white bg-purple text-lg'

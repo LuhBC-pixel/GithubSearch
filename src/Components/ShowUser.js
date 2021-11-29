@@ -12,25 +12,25 @@ function ShowUser() {
   return (
     <div className='w-full h-full bg-black'>
       <Navbar />
-      <div class='w-screen h-2/4 flex justify-center items-center -ml-60'>
-        <img
-          src={userData.avatar_url}
-          alt={userData.login}
-          class='rounded-full w-52 h-52'
-        />
-        <div class='ml-10'>
-          <h2 class='text-purple text-2xl font-bold font-display -mt-14'>
-            {userData.name}
-          </h2>
-          <p class='text-gray font-display self-end justify-self-start'>
-            @{userData.login}
-          </p>
-        </div>
-        <div class='w-1/3 h-10 box-border absolute mt-20 ml-96 -mr-72'>
-          <ShowDataUser userData={userData} />
-        </div>
-        <div class='absolute right-1/4'>
-          <TotalRepositories userData={userData} />
+      <div class='h-full flex items-start mt-10'>
+        <div class='w-screen flex justify-center'>
+          <img
+            src={userData.avatar_url}
+            alt={userData.login}
+            class='rounded-full w-52 h-52'
+          />
+          <div class='mt-6 ml-10'>
+            <h2 class='text-purple text-2xl font-bold font-display'>
+              {userData.name}
+            </h2>
+            <p class='text-gray font-display'>@{userData.login}</p>
+            <div class='mt-6'>
+              <ShowDataUser userData={userData} />
+            </div>
+          </div>
+          <div class='mt-10 -ml-32'>
+            <TotalRepositories userData={userData} />
+          </div>
         </div>
       </div>
       <ReposUser repos={userData} />

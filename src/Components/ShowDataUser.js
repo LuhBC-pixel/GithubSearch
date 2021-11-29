@@ -27,7 +27,7 @@ function ShowDataUser({ userData }) {
 
   return (
     <div class=''>
-      <div class='inline-flex w-4/5'>
+      <div class='inline-flex w-full'>
         <img src={Pin} alt='pin map icon' class='w-4 mr-2' />
         <span class='text-gray font-display mr-4'>
           {userData.location || 'No location'}
