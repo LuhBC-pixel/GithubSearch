@@ -18,12 +18,12 @@
 </h4>
 
 <p align="center">
- <a href="#sobre">Sobre</a> •
- <a href="#tecnologias">Tecnologias</a> •
- <a href='#features'>Features</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href='#issues'>Issues</a> •
- <a href="#autor">Autor</a>
+ <a href="#-sobre">Sobre</a> •
+ <a href="#-tecnologias">Tecnologias</a> •
+ <a href='#-features'>Features</a> • 
+ <a href="#-licenc-a">Licença</a> • 
+ <a href='#-issues'>Issues</a> •
+ <a href="#-autor">Autor</a>
 </p>
 
 # 🚀 Sobre
