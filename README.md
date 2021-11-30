@@ -18,15 +18,15 @@
 </h4>
 
 <p align="center">
- <a href="#-sobre">Sobre</a> •
- <a href="#-tecnologias">Tecnologias</a> •
- <a href='#-features'>Features</a> • 
- <a href="#-licenc-a">Licença</a> • 
- <a href='#-issues'>Issues</a> •
- <a href="#-autor">Autor</a>
+ <a href="##-sobre">Sobre</a> •
+ <a href="##-tecnologias">Tecnologias</a> •
+ <a href='##-features'>Features</a> • 
+ <a href="##-licenc-a">Licença</a> • 
+ <a href='##-issues'>Issues</a> •
+ <a href="##-autor">Autor</a>
 </p>
 
-# 🚀 Sobre
+## 🚀 Sobre
 
 Criei esse projeto baseado no desafio do <a href='https://github.com/Diegooliveyra/Github_Search'>DevChallenge</a>.
 
@@ -34,27 +34,27 @@ Criei esse projeto baseado no desafio do <a href='https://github.com/Diegoolivey
 
 <img src='https://raw.githubusercontent.com/Diegooliveyra/Github_Search/main/.github/gif.gif'>
 
-# 💻 Tecnologias
+## 💻 Tecnologias
 
  Para construção deste projeto, utilizei as tecnologias React, React-router e Tailwind.
 
-# 🎯 Features
+## 🎯 Features
 
-- [X] A pagina inicial precisa ter um campo de busca
-- [X] A busca devera ser feita ao clicar no botão de busca ou ao clicar no tecla Enter
-- [X] A resposta da página deverá exibir as informaçes do usuario, tais como nome, followers , following, stars, empresa e localização
-- [X] A resposta da página deverá exibir as informaçes dos repositórios, tais como o nome do repositório, descrição do projeto, stars, forks e um link que direciona para o repositório no Github
-- [X] O site deve ser responsivo
+- [x] A pagina inicial precisa ter um campo de busca
+- [x] A busca devera ser feita ao clicar no botão de busca ou ao clicar no tecla Enter
+- [x] A resposta da página deverá exibir as informaçes do usuario, tais como nome, followers , following, stars, empresa e localização
+- [x] A resposta da página deverá exibir as informaçes dos repositórios, tais como o nome do repositório, descrição do projeto, stars, forks e um link que direciona para o repositório no Github
+- [x] O site deve ser responsivo
 
 
-# ✨ Licença
+## ✨ Licença
 
 Esse projeto está sobre Licença MIT
 
-# 🔨 Issues
+## 🔨 Issues
 
 Encontrou um erro no projeto? Por favor, relate no issues.
 
-# 👩 Autor
+## 👩 Autor
 
 Feito com ❤ por Luisa Boina Coltro
