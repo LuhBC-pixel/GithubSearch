@@ -14,7 +14,7 @@ function ShowUser() {
     <div className='w-full h-full bg-black'>
       <Navbar />
       <div class='h-full flex items-start mt-10'>
-        <div class='w-screen flex justify-center'>
+        <div class='w-screen flex justify-center flex-wrap'>
           <img
             src={userData.avatar_url}
             alt={userData.login}
