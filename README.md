@@ -36,7 +36,11 @@ Criei esse projeto baseado no desafio do <a href='https://github.com/Diegoolivey
 
 ## 💻 Tecnologias
 
- Para construção deste projeto, utilizei as tecnologias React, React-router e Tailwind.
+ As seguintes ferramentas foram usadas na construção do projeto:
+
+ - [React](https://pt-br.reactjs.org/)
+ - [React Router](https://reactrouter.com/)
+ - [Tailwindcss](https://tailwindcss.com/)
 
 ## 🎯 Features
 
