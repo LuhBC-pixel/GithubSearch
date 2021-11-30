@@ -41,6 +41,7 @@ Criei esse projeto baseado no desafio do <a href='https://github.com/Diegoolivey
  - [React](https://pt-br.reactjs.org/)
  - [React Router](https://reactrouter.com/)
  - [Tailwindcss](https://tailwindcss.com/)
+ - [Vercel](https://vercel.com)
 
 ## 🎯 Features
 
