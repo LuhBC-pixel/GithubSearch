@@ -40,10 +40,11 @@ Criei esse projeto baseado no desafio do <a href='https://github.com/Diegoolivey
 
 # 🎯 Features
 
-- [x] A pagina inicial precisa ter um campo de busca, a busca devera ser feita ao clicar no botão de busca ou ao clicar no tecla Enter
-- [x] A resposta da página deverá exibir as informaçes do usuario, tais como nome, followers , following, stars, empresa e localização
-- [x] A resposta da página deverá exibir as informaçes dos repositórios, tais como o nome do repositório, descrição do projeto, stars, forks e um link que direciona para o repositório no Github
-- [x] O site deve ser responsivo
+- [X] A pagina inicial precisa ter um campo de busca
+- [X] A busca devera ser feita ao clicar no botão de busca ou ao clicar no tecla Enter
+- [X] A resposta da página deverá exibir as informaçes do usuario, tais como nome, followers , following, stars, empresa e localização
+- [X] A resposta da página deverá exibir as informaçes dos repositórios, tais como o nome do repositório, descrição do projeto, stars, forks e um link que direciona para o repositório no Github
+- [X] O site deve ser responsivo
 
 
 # ✨ Licença
