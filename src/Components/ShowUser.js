@@ -4,6 +4,7 @@ import TotalRepositories from './TotalRepositories';
 import ReposUser from './ReposUser';
 
 import ShowDataUser from './ShowDataUser';
+import Footer from './Footer';
 
 function ShowUser() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function ShowUser() {
         </div>
       </div>
       <ReposUser repos={userData} />
+      <Footer />
     </div>
   );
 }
